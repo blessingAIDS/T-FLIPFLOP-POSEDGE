@@ -1,16 +1,16 @@
 # T-FLIPFLOP-POSEDGE
 
-**AIM:**
+*AIM:*
 
 To implement  T flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+*SOFTWARE REQUIRED:*
 
 Quartus prime
 
-**THEORY**
+*THEORY*
 
-**T Flip-Flop**
+*T Flip-Flop*
 
 T flip-flop is the simplified version of JK flip-flop. It is obtained by connecting the same input ‘T’ to both inputs of JK flip-flop. It operates with only positive clock transitions or negative clock transitions. The circuit diagram of T flip-flop is shown in the following figure.
 
@@ -26,17 +26,41 @@ Here, Qtt & Qt+1t+1 are present state & next state respectively. So, T flip-flop
  
 From the above characteristic table, we can directly write the next state equation as Q(t+1)=T′Q(t)+TQ(t)′ ⇒Q(t+1)=T⊕Q(t)
 
-**Procedure**
+*Procedure*
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
 
-**PROGRAM**
+2.Compile andrun the program.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Createnodes for inputs and outputs to generate the timing diagram.
+
+5.For different inputcombinations generate the timing diagram.
+
+*PROGRAM*
+
+![Screenshot 2024-12-23 112608](https://github.com/user-attachments/assets/46f98d9b-bd9e-4497-9c86-17c1d18452e4)
+
+
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+
+Developed by: BLESSING S
+
+RegisterNumber: 24002843
 */
 
-**RTL LOGIC FOR FLIPFLOPS**
+*RTL LOGIC FOR FLIPFLOPS*
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+![Screenshot 2024-12-23 112628](https://github.com/user-attachments/assets/203c4678-64dc-433f-adf8-950f6c49ca58)
 
-**RESULTS**
+
+*TIMING DIGRAMS FOR FLIP FLOPS*
+
+![Screenshot 2024-12-23 112649](https://github.com/user-attachments/assets/1342120d-394f-4a0f-bd77-591165ae14a4)
+
+
+*RESULTS*
+
+Thus, the T Flip-Flop is designed, and its functionality is validated using the
+truth table and timing diagrams.
